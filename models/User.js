@@ -4,7 +4,7 @@ const UserSchema = new Schema(
 	{
 		email: {
 			type: String,
-			unique: [true, 'Email already exists'],
+			unique: true, // Ensure uniqueness of email addresses
 			required: [true, 'Email is required'],
 		},
 		username: {
@@ -17,15 +17,16 @@ const UserSchema = new Schema(
 		bookmarks: [
 			{
 				type: Schema.Types.ObjectId,
-				ref: 'Property',
+				ref: 'Property', // Assuming 'Property' is the name of another Mongoose model
 			},
 		],
 	},
 	{
-		timestamps: true,
+		timestamps: true, // Automatically add createdAt and updatedAt fields
 	}
 );
 
-const User = models.user || model('User', UserSchema);
+// Use models.User if it exists, otherwise define the User model
+const User = models.User || model('User', UserSchema);
 
 export default User;
