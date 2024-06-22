@@ -18,7 +18,7 @@ const PropertyMap = ({ property }) => {
 		height: '500px',
 	});
 	const [loading, setLoading] = useState(true);
-	const [geoCodeError, setGeoCodeError] = useState(true);
+	const [geoCodeError, setGeoCodeError] = useState(false);
 
 	setDefaults({
 		key: process.env.NEXT_PUBLIC_GOOGLE_GEOCODING_API_KEY,
