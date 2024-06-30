@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { GlobalProvider } from '@/context/GlobalContext';
+import 'photoswipe/dist/photoswipe.css';
 
 export const metadata = {
 	title: 'HomeRental | Find The Perfect Rental',
