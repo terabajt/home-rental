@@ -14,7 +14,7 @@ Messaging System: Users can send messages to landlords, who can view them in the
 Favorites: Users can add properties to their favorites for easy access later.
 
 #### Deploy the App
-You can access the deployed application here: https://home-rental-pi.vercel.app/ .
+You can access the deployed application here: https://home-rental-topaz.vercel.app/ .
 
 ### Installation
 Clone the repository:
