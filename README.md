@@ -1,4 +1,5 @@
 ## Home Rental Application
+![Main site](https://raw.githubusercontent.com/terabajt/home-rental/main/public/images/img_1.png)
 
 ### Project Description
 A Next.js application that allows users to rent and lease rooms, houses, and apartments on a weekend, monthly, and long-term basis. The app features Google login, Firebase for data storage, and integrations with Google Maps and CloudImage. Users can add listings, search for properties, communicate with landlords, and manage favorite properties.
@@ -62,3 +63,4 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
+![Properties](https://raw.githubusercontent.com/terabajt/home-rental/main/public/images/img_2.png)
